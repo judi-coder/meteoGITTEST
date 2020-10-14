@@ -1,0 +1,24 @@
+td, th {
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;
+    border-collapse: collapse;
+}
+th {
+    font-size: 1.2em;
+}
+table {
+    text-align: center;
+}
+
+
+#ciel{
+
+    width:370px;
+    height: 20px;
+    color: #444bff;
+    background: cyan;
+    text-align: center;
+
+
+}
