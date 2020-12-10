@@ -1,3 +1,4 @@
+
 <?php
 
 $semaine = [ 0 => "Dimanche", 1 => "Lundi", 2 => "Mardi", 3 => "Mercredi",4 => "Jeudi", 5 => "Vendredi", 6 => "Samedi"];
@@ -13,15 +14,18 @@ $prevision = array();
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="meteo.css">
-    <title>Meteo tableau final</title>
+    <link rel="shortcut icon" style="color:red" href="assets/img/logo%20favicon%20SD.png">
+    <title>judick meteo </title>
 </head>
-<body>
-<h3>PREVISION METEO DANS LES DEUX  SEMAINES </h3>
+<body >
+<h4 style="font-size: 22px;color:#666;margin: 0 15%;line-height: 50px;letter-spacing: 10px;
+                   font-family: Cabin, sans-serif;text-transform: none;font-weight: lighter;">Prévision meteo dans les deux semaines </h4>
 
-<div id='ciel'>"PAR JUDICAEL"</div>
+<p style="font-size: 16px;color:red;margin: 0 15%;line-height: 50px;letter-spacing: 6px;
+                   font-family: Cabin, sans-serif;text-transform: none;font-weight: lighter;">Actualiser la page pour voir les changements</p>
 
 
-<table border="3" cellpadding="3" cellspacing="0">
+<table border="3" cellpadding="3" cellspacing="0" style="margin: 10% 30%">
     <tr>
         <th>Jour</th><th>Temps</th><th>Température</th>
     </tr>
@@ -63,7 +67,16 @@ $prevision = array();
 
     }
     ?>
+
+
+
+
+
+
+
+
 </table>
 </body>
 </html>
+
 
